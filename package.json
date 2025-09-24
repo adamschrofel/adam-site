@@ -1,0 +1,17 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Basic portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/adamsite.js",
+    "dev": "nodemon src/adamsite.js",
+    "test": "testii",
+    "format": "prettier -w . "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamschrofel/adam-site.git"
+  }
+}
